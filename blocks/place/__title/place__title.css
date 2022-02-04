@@ -19,7 +19,7 @@
         line-height: 1.1;
     }
 }
-@media (max-width: 320px){
+@media (max-width: 510px){
     .place__title{
         margin-left: 16px;
         grid-column: unset;
