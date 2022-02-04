@@ -1,0 +1,3 @@
+.place__paragraph-container{
+    max-width: calc(1280px - (148px*2) - 460px - 40px);
+}

@@ -1,0 +1,10 @@
+.link{
+    color: #FFFFFF;
+    text-rendering: optimizeLegibility;
+    font-family: "Inter", "Arial", "Helvetica", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+.link:hover{
+    opacity: 0.8;
+}

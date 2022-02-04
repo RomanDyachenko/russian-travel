@@ -1,0 +1,12 @@
+.website{
+    grid-row: 1;
+    grid-column: 2;
+    align-self: flex-end;
+}
+@media (max-width: 320px){
+    .website{
+        grid-row: 2;
+        grid-column: unset;
+        margin-left: 16px;
+    }
+}

@@ -1,0 +1,9 @@
+.intro{
+    margin: 0 auto;
+    max-width: 1280px;
+}
+@media (max-width: 768px){
+    .intro{
+        margin: 0;
+    }
+}

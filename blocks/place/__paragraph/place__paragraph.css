@@ -1,0 +1,26 @@
+.place__paragraph{
+    margin: 0 0 26px 0;
+    text-rendering: optimizeLegibility;
+    font-family: "Inter", "Arial", "Helvetica", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163%;
+    color: #FFFFFF;
+}
+.place__paragraph:last-of-type{
+    margin: 0;
+}
+@media (max-width: 768px){
+    .place__paragraph{
+        font-size: 16px;
+    }
+}
+@media (max-width: 320px){
+    .place__paragraph{
+        margin: 0 16px 26px 16px;
+    }
+    .place__paragraph:last-of-type{
+        margin: 0 16px;
+    }
+}

@@ -1,0 +1,24 @@
+.intro__container{
+    max-width: 690px;
+    padding: 92px 0 92px 148px ;
+}
+
+@media (max-width: 1024px){
+    .intro__container{
+        padding: 92px 0 92px 48px;
+    }
+}
+@media (max-width: 768px){
+    .intro__container{
+        max-width: calc(100% - 48px);
+        padding: 88px 0;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 320px){
+    .intro__container{
+        max-width: calc(100% - 32px);
+        padding: 64px 0;
+        margin: 0 auto;
+    }
+}
