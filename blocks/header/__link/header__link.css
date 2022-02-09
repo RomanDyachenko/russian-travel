@@ -1,16 +1,11 @@
-.link_position_header{
+.header__link{
     text-decoration: none;
-    align-self: flex-end;
     font-size: 24px;
     line-height: 1.17;
-    margin: 0 18px 8px 0;
-}
-.link_position_header:last-of-type{
-    margin-right: 0;
 }
 @media (max-width: 320px){
     
-    .link_position_header{
+    .header__link{
         font-size: 18px;
         line-height: 1.11;
     }
